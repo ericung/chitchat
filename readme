@@ -1,0 +1,9 @@
+to run server:
+python server.py [ADDRESS] [HOST]
+
+example:
+python server.py 0.0.0.0 7895	
+
+timing out forces user back into login but doesn't delete any fields for their convenience and keeps log data as well
+
+logging out clears their text area

@@ -1,0 +1,25 @@
+<!-- saved from url=(0075)http://www-users.cselabs.umn.edu/classes/Fall-2012/csci4131/extra/chat.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+  <script type="text/JavaScript" src="udp.js"></script>
+  <title>UDP Chat</title>
+</head>
+
+<body>
+  <form name="form">
+	<div id = "unlogged">
+	    <input name="username" id="username"size="25" type="text">Username<br>
+    	<input name="password" size="25" type="text">Password<br>
+	    <input name="domain" size="25" type="text">Server Domain<br>
+    	<input name="port" size="25" type="text">Server Port<br>
+	    <input name="login" value="Login" type="button" onclick="submit_login()">
+	</div>
+	<div id="logged" style="display:none">
+	    <textarea id="display" rows="24" cols="68" readonly>    </textarea><br>
+	    <input name="message" id="message" size="64" maxlength="64" type="text"><input name="send" value="Send" type="button" onclick="submit_send()"><p></p>
+		<br><input name="logout" value="Logout" type="submit" onclick="submit_logout()"><br>
+	</div>
+  </form>
+
+
+</body></html>
