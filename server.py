@@ -180,6 +180,7 @@ def main():
 	# set up server
 	argdom = sys.argv[1]
 	arghost = sys.argv[2]
+	print argdom, "\t", arghost
 	address = ('{}'.format(argdom),int(arghost))
 	server_socket = socket(AF_INET, SOCK_DGRAM)
 	server_socket.bind(address)
