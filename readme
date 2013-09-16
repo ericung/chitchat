@@ -1,3 +1,5 @@
+Idea came from a course I took.
+
 to run server:
 python server.py [ADDRESS] [HOST]
 
